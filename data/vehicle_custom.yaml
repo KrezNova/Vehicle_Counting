@@ -1,0 +1,17 @@
+path: ../yolov5/datasets  # Path to your dataset folder (relative to this YAML file)
+
+train: images/train  # Path to the train images folder (relative to `path`)
+val: images/val      # Path to the val images folder (relative to `path`)
+
+nc: 4                # Number of classes
+names: ['Ambulance', 'Bus', 'Car', 'Truck']  # List of class names
+
+# python3 train.py --img 640 --batch 16 --epochs 100 --data vehicle_custom.yaml --weights yolov5s.pt Code to train the model
+# https://www.youtube.com/watch?v=66RT1AXx_Zw&ab_channel=TechSimp
+# python3 main.py To run the main.py
+
+
+
+
+
+
